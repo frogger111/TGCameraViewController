@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83EC875F1BF3E11A0075BEE4 /* TGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC875E1BF3E11A0075BEE4 /* TGTest.m */; };
 		F82F8EDC19C4F29000A47148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82F8EC819C4F29000A47148 /* AppDelegate.m */; };
 		F82F8EE219C4F29000A47148 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82F8ED719C4F29000A47148 /* Images.xcassets */; };
 		F82F8EE419C4F29000A47148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82F8EDB19C4F29000A47148 /* main.m */; };
@@ -44,8 +43,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83EC875D1BF3E11A0075BEE4 /* TGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGTest.h; path = Test/TGTest.h; sourceTree = "<group>"; };
-		83EC875E1BF3E11A0075BEE4 /* TGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGTest.m; path = Test/TGTest.m; sourceTree = "<group>"; };
 		F82F8E8119C4EFE700A47148 /* TGCameraViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGCameraViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82F8EC719C4F29000A47148 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F82F8EC819C4F29000A47148 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,15 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83EC875C1BF3E0E90075BEE4 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				83EC875D1BF3E11A0075BEE4 /* TGTest.h */,
-				83EC875E1BF3E11A0075BEE4 /* TGTest.m */,
-			);
-			name = Test;
-			sourceTree = "<group>";
-		};
 		F82F8E7819C4EFE700A47148 = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +194,6 @@
 		F89FAC861B1A3D3A0079B391 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				83EC875C1BF3E0E90075BEE4 /* Test */,
 				F89FAC871B1A3D3A0079B391 /* Category */,
 				F89FAC8A1B1A3D3A0079B391 /* Control */,
 				F89FAC931B1A3D3A0079B391 /* Helper */,
@@ -401,7 +388,6 @@
 				F89FACCA1B1A3D3A0079B391 /* TGCameraColor.m in Sources */,
 				F835957F19C7230500CAE395 /* TGInitialViewController.m in Sources */,
 				F82F8EE419C4F29000A47148 /* main.m in Sources */,
-				83EC875F1BF3E11A0075BEE4 /* TGTest.m in Sources */,
 				F89FACD21B1A3D3A0079B391 /* TGCameraFocusView.m in Sources */,
 				F89FACC31B1A3D3A0079B391 /* TGCameraAuthorizationViewController.m in Sources */,
 				F89FACC71B1A3D3A0079B391 /* TGAlbum.m in Sources */,
