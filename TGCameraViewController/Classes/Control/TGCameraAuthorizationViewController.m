@@ -4,6 +4,8 @@
 //
 //  Created by Bruno Tortato Furtado on 20/09/14.
 //  Copyright (c) 2014 Tudo Gostoso Internet. All rights reserved.
+//  Edited by Tobiasz Parys
+//  Copyright (c) 2015 Tobiasz Parys. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -65,7 +67,12 @@
 
 - (IBAction)closeTapped
 {
+  if([self.delegate respondsToSelector:@selector(close)]){
+    [self.delegate close];
+  } else {
+  
     [self dismissViewControllerAnimated:YES completion:nil];
+  }
 }
 
 @end

@@ -330,7 +330,7 @@
 		F82F8E7919C4EFE700A47148 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TG;
+				CLASSPREFIX = IN;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Tudo Gostoso Internet";
 				TargetAttributes = {
@@ -536,6 +536,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Example/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.innonics.TGCameraViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -549,6 +550,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Example/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.innonics.TGCameraViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
